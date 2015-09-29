@@ -6,9 +6,15 @@ Suggested primarily for responsive background-image sizing on sites that can rel
 ## Usage
 Simply assign the `data-shopify-src` attribute to any element with a valid shopify image URL. The script will choose wether to apply the chosen size's url as an `src` attribute or as a `background-image: url()` style depending on the type of element.
 
-## Example
+## Examples
 ```HTML
+<!-- IMG Tag -->
 <img data-shopify-src="//cdn.shopify.com/s/files/1/xxxx/xxxx/files/img_1024x1024.jpg" alt="Responsive" />
+
+<!-- Div background-image -->
+<div data-shopify-src="//cdn.shopify.com/s/files/1/xxxx/xxxx/files/img_1024x1024.jpg" style="background-size: cover; background-position: center center; background-repeat: no-repeat;">
+</div>
+
 <script>
   $("[data-shopify-src]").responsiveShopifyImg();
 </script>
