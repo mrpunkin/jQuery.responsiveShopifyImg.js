@@ -1,4 +1,4 @@
-# jquery.responsiveShopifyImg.js
+# jquery-responsiveShopifyImg
 Responsive image support for Shopify stores based on Shopify's provided image sizes.
 
 Suggested primarly for responsive background-image sizing on sites that can rely on users having JS enabled.
