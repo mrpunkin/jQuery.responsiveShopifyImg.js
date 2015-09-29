@@ -1,7 +1,7 @@
 # jquery-responsiveShopifyImg
 Responsive image support for Shopify stores based on Shopify's provided image sizes.
 
-Suggested primarly for responsive background-image sizing on sites that can rely on users having JS enabled.
+Suggested primarily for responsive background-image sizing on sites that can rely on users having JS enabled.
 
 ## Usage
 Simply assign the `data-shopify-src` attribute to any element with a valid shopify image URL. The script will choose wether to apply the chosen size's url as an `src` attribute or as a `background-image: url()` style depending on the type of element.
